@@ -1,5 +1,5 @@
 # ColorUtils
-DiskLib is a small collection of utility functions to deal with coloring on Java.
+ColorUtils is a small collection of utility functions to deal with coloring on Java.
 
 ## How To Add As Library
 Add it as a maven dependency or just [download the latest release](https://github.com/Konloch/ColorUtils/releases).
