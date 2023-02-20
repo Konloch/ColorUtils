@@ -17,4 +17,4 @@ Add it as a maven dependency or just [download the latest release](https://githu
 * [Download Releases](https://github.com/Konloch/ColorUtils/releases)
 
 ## How To Use
-These functions are so small you're better off just reading the source code directly.
+These functions are so small you're better off just reading the source code directly. [Click here to view the source](https://github.com/Konloch/ColorUtils/blob/main/src/main/java/com/konloch/utils/ColorUtils.java).
