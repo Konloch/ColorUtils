@@ -3,7 +3,7 @@
 
 	<groupId>com.konloch</groupId>
 	<artifactId>ColorUtils</artifactId>
-	<version>1.0.0</version>
+	<version>1.1.0</version>
 
 	<name>ColorUtils</name>
 	<description>ColorUtils is an easy-to-use zero dependency collection of utility functions to deal with coloring on Java.</description>
@@ -104,7 +104,7 @@
 				<configuration>
 					<transformers>
 						<transformer implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-							<mainClass>com.konloch.utils.ColorUtils</mainClass>
+							<mainClass>com.konloch.util.ColorUtils</mainClass>
 							<manifestEntries>
 								<Implementation-Version>${project.version}</Implementation-Version>
 								<X-Compile-Source-JDK>${maven.compiler.source}</X-Compile-Source-JDK>
