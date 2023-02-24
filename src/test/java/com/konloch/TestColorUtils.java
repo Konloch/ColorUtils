@@ -1,6 +1,6 @@
 package com.konloch;
 
-import com.konloch.utils.ColorUtils;
+import com.konloch.util.ColorUtils;
 
 import java.awt.*;
 

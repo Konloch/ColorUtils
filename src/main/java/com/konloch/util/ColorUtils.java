@@ -1,4 +1,4 @@
-package com.konloch.utils;
+package com.konloch.util;
 
 import java.awt.*;
 
