@@ -3,7 +3,7 @@
 
 	<groupId>com.konloch</groupId>
 	<artifactId>ColorUtils</artifactId>
-	<version>1.1.0</version>
+	<version>1.2.0</version>
 
 	<name>ColorUtils</name>
 	<description>ColorUtils is an easy-to-use zero dependency collection of utility functions to deal with coloring on Java.</description>
