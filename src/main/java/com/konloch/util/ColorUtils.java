@@ -11,7 +11,7 @@ public class ColorUtils
 	/**
 	 * A static value to represent a fully transparent color
 	 */
-	public static final Color COLOR_TRANSPARENT = new Color(0.0f,0.0f,0.0f,0f);
+	public static final Color COLOR_TRANSPARENT = new Color(0.0f,0.0f,0.0f,0.0f);
 	
 	/**
 	 * Set the alpha value of a Color object.
@@ -129,6 +129,18 @@ public class ColorUtils
 	public static String getHex(int rgbColor)
 	{
 		return "#" + Integer.toHexString(rgbColor).toUpperCase();
+	}
+	
+	/**
+	 * Generate a new Color instance from a hex color code
+	 *
+	 * @param hexColorCode any String as the hex color code
+	 * @return null if it cannot parse the hex color code, if it can, it will return a new Color instance
+	 * @throws NumberFormatException if the string does not contain a parsable integer.
+	 */
+	public static Color fromHex(String hexColorCode) throws NumberFormatException
+	{
+		return new Color(Integer.decode(hexColorCode));
 	}
 	
 	/**
